@@ -1,11 +1,16 @@
+import java.util.*;
 
 public class Main {
 
 	public static void main(String[] args) {
-
-		// listen af argumenter er tom, så oplslag vil kaste en Exception
-		System.out.println(args[2]);
-
+		HashMap<String, String> telefonbog = new HashMap<>();
+		telefonbog.put("60616263", "Anders");
+		telefonbog.put("50505050", "Christina");
+		telefonbog.put("87414613", "Dorte");
+	
+		String navn = telefonbog.get("60616263");
+		
+		System.out.println(navn);
 	}
 
 }

@@ -12,6 +12,7 @@ public class Main {
 			String navn = stack.pop();
 			System.out.println(navn);
 		}
+		
 	}
 
 }
